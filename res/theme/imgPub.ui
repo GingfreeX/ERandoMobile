@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="imgPub" cloudDestinationProperty="imgPub" >
+  <component type="ImageViewer" name="imgPub" cloudDestinationProperty="imgPub" >
+  </component>
+</component>

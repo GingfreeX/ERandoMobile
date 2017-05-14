@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="Publication" cloudDestinationProperty="Publication" title="Publication" >
+  <component type="TextField" name="txtpub" cloudBoundProperty="text" cloudDestinationProperty="txtpub" text="" hint="Exprimez vous ..." >
+  </component>
+  <component type="Button" name="btnupload" cloudDestinationProperty="btnupload" uiid="btnupload" snapToGrid="true" flatten="false" text="" icon="uplo.png" gap="2" >
+  </component>
+  <component type="Button" name="btnpub" cloudDestinationProperty="btnpub" uiid="btnpub" text="" icon="publier.png" textPosition="3" >
+  </component>
+</component>
