@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="GUI 5" cloudDestinationProperty="GUI 5" >
+  <component type="Button" name="rate" cloudDestinationProperty="rate" text="rate" >
+  </component>
+</component>
