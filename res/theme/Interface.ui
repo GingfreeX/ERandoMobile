@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="Interface" cloudDestinationProperty="Interface" title="Welcome" >
+<command name="Menu" id="2" action="" backCommand="false" /></component>
