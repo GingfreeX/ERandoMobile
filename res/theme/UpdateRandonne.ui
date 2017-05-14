@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="UpdateRandonne" cloudDestinationProperty="UpdateRandonne" layout="FlowLayout" flowLayoutFillRows="false" flowLayoutAlign="4" flowLayoutValign="4" >
+  <component type="Container" name="Container1" cloudDestinationProperty="Container1" layout="BoxLayout" boxLayoutAxis="Y" >
+    <component type="Label" name="Label" cloudDestinationProperty="Label" text=" Modifier Un Radonn&#xe9;" >
+    </component>
+    <component type="Container" name="Container12" cloudDestinationProperty="Container12" >
+      <component type="Button" name="Button" cloudDestinationProperty="Button" text="Modifier" >
+      </component>
+      <component type="Button" name="Button1" cloudDestinationProperty="Button1" text="Supprtimer" >
+      </component>
+    </component>
+    <component type="Container" name="Container" cloudDestinationProperty="Container" scrollVisible="false" layout="BoxLayout" boxLayoutAxis="X" >
+      <component type="Label" name="Label2" cloudDestinationProperty="Label2" text="Titre" >
+      </component>
+      <component type="TextField" name="TextField" cloudBoundProperty="text" cloudDestinationProperty="TextField" text="" >
+      </component>
+    </component>
+    <component type="Container" name="Container2" cloudDestinationProperty="Container" scrollVisible="false" layout="BoxLayout" boxLayoutAxis="X" >
+      <component type="Label" name="Label2" cloudDestinationProperty="Label2" text="Description" >
+      </component>
+      <component type="TextField" name="TextField1" cloudBoundProperty="text" cloudDestinationProperty="TextField1" scrollVisible="false" text="" >
+      </component>
+    </component>
+    <component type="Container" name="Container3" cloudDestinationProperty="Container" scrollVisible="false" layout="BoxLayout" boxLayoutAxis="X" >
+      <component type="Label" name="Label2" cloudDestinationProperty="Label2" text="Destination" >
+      </component>
+      <component type="TextField" name="TextField2" cloudBoundProperty="text" cloudDestinationProperty="TextField2" text="" >
+      </component>
+    </component>
+    <component type="Container" name="Container4" cloudDestinationProperty="Container" scrollVisible="false" layout="BoxLayout" boxLayoutAxis="X" >
+      <component type="Label" name="Label2" cloudDestinationProperty="Label2" text="Date" >
+      </component>
+      <component type="TextField" name="TextField3" cloudBoundProperty="text" cloudDestinationProperty="TextField3" text="" >
+      </component>
+    </component>
+    <component type="Container" name="Container5" cloudDestinationProperty="Container" scrollVisible="false" layout="BoxLayout" boxLayoutAxis="X" >
+      <component type="Label" name="Label2" cloudDestinationProperty="Label2" text="Prix" >
+      </component>
+      <component type="TextField" name="TextField4" cloudBoundProperty="text" cloudDestinationProperty="TextField4" text="" >
+      </component>
+    </component>
+    <component type="Container" name="Container6" cloudDestinationProperty="Container" scrollVisible="false" layout="BoxLayout" boxLayoutAxis="X" >
+      <component type="Label" name="Label2" cloudDestinationProperty="Label2" text="Nombre de place" >
+      </component>
+      <component type="TextField" name="TextField5" cloudBoundProperty="text" cloudDestinationProperty="TextField5" text="" >
+      </component>
+    </component>
+    <component type="Container" name="Container7" cloudDestinationProperty="Container" scrollVisible="false" layout="BoxLayout" boxLayoutAxis="X" >
+      <component type="Label" name="Label2" cloudDestinationProperty="Label2" text="Point de d&#xe9;part" >
+      </component>
+      <component type="TextField" name="TextField6" cloudBoundProperty="text" cloudDestinationProperty="TextField6" text="" >
+      </component>
+    </component>
+    <component type="Container" name="Container8" cloudDestinationProperty="Container" scrollVisible="false" layout="BoxLayout" boxLayoutAxis="X" >
+      <component type="Label" name="Label2" cloudDestinationProperty="Label2" text="Type" >
+      </component>
+      <component type="TextField" name="TextField7" cloudBoundProperty="text" cloudDestinationProperty="TextField7" text="" >
+      </component>
+    </component>
+    <component type="Container" name="Container9" cloudDestinationProperty="Container" scrollVisible="false" layout="BoxLayout" boxLayoutAxis="X" >
+      <component type="Label" name="Label2" cloudDestinationProperty="Label2" text="Niveau" >
+      </component>
+      <component type="TextField" name="TextField8" cloudBoundProperty="text" cloudDestinationProperty="TextField8" text="" >
+      </component>
+    </component>
+    <component type="Container" name="Container10" cloudDestinationProperty="Container" scrollVisible="false" layout="BoxLayout" boxLayoutAxis="X" >
+      <component type="Label" name="Label2" cloudDestinationProperty="Label2" text="Age min" >
+      </component>
+      <component type="TextField" name="TextField9" cloudBoundProperty="text" cloudDestinationProperty="TextField9" text="" >
+      </component>
+    </component>
+    <component type="Container" name="Container11" cloudDestinationProperty="Container" scrollVisible="false" layout="BoxLayout" boxLayoutAxis="X" >
+      <component type="Label" name="Label2" cloudDestinationProperty="Label2" text="Moyen de Transport" >
+      </component>
+      <component type="TextField" name="TextField10" cloudBoundProperty="text" cloudDestinationProperty="TextField10" text="" >
+      </component>
+    </component>
+  </component>
+</component>
