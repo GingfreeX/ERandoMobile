@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="MemberDetail" cloudDestinationProperty="MemberDetail" layout="BoxLayout" boxLayoutAxis="Y" title="Detail" >
+  <component type="ImageViewer" name="ImageViewer" cloudDestinationProperty="ImageViewer" uiid="profilepic" >
+  </component>
+  <component type="Container" name="Container" cloudDestinationProperty="Container" uiid="Container" scrollVisible="true" layout="BoxLayout" boxLayoutAxis="X" >
+    <component type="Label" name="lblnnom" cloudDestinationProperty="lblnnom" text="Nom :" >
+    </component>
+    <component type="TextField" name="txtnom" cloudBoundProperty="text" cloudDestinationProperty="TextField" uiid="Container" text="TextField" editable="false" >
+    </component>
+  </component>
+  <component type="Container" name="Container1" cloudDestinationProperty="Container" layout="BoxLayout" boxLayoutAxis="X" >
+    <component type="Label" name="lblprenom" cloudDestinationProperty="lblnnom" scrollVisible="false" text="Prenom:" >
+    </component>
+    <component type="TextField" name="txtprenom" cloudBoundProperty="text" cloudDestinationProperty="txtprenom" uiid="Container" text="TextField" editable="false" >
+    </component>
+  </component>
+  <component type="Container" name="Container11" cloudDestinationProperty="Container" layout="BoxLayout" boxLayoutAxis="X" >
+    <component type="Label" name="lblusername" cloudDestinationProperty="lblnnom" scrollVisible="false" text="Age :" >
+    </component>
+    <component type="TextField" name="txtage" cloudBoundProperty="text" cloudDestinationProperty="txtage" uiid="Container" text="TextField" editable="false" >
+    </component>
+  </component>
+  <component type="Container" name="Container2" cloudDestinationProperty="Container" layout="BoxLayout" boxLayoutAxis="X" >
+    <component type="Label" name="lblmail" cloudDestinationProperty="lblnnom" text="Email :" >
+    </component>
+    <component type="TextField" name="txtmail" cloudBoundProperty="text" cloudDestinationProperty="txtmail" uiid="Container" text="" editable="false" >
+    </component>
+  </component>
+  <component type="Container" name="Container3" cloudDestinationProperty="Container" layout="BoxLayout" boxLayoutAxis="X" >
+    <component type="Label" name="lblnpays" cloudDestinationProperty="lblnnom" text="Pays:" >
+    </component>
+    <component type="TextField" name="txtpays" cloudBoundProperty="text" cloudDestinationProperty="txtpays" uiid="Container" text="Container" editable="false" >
+    </component>
+  </component>
+</component>
